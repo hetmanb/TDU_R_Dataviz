@@ -1,10 +1,12 @@
-# Example Datasets for use in the course {#datasets}
+# Training Datasets for use in the course {#datasets}
 
 This chapter will include references to openly available datasets and provide some suggestions for how we can use them.
 
 ## Summary of datasets
 
-Table 1: Public Health Datasets {tab:\#phdatasets}
+The following tables provide links to data useful for either public-health based examples, or other fun examples for use. Note that some of these data sets are internal to the TDU and require internal permissions to access. For more information, or if you would like to gain access to an internal training data set, please [contact the TDU](mailto:ceprtraining-formationcmiu@phac-aspc.gc.ca).
+
+Table: (\#tab:phdatasets) Public Health Datasets
 
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+-------------------------------------------------+
 | Title                                                                                                                                                                                                                                                                                        | Description                                                                                | Use                                             |
@@ -26,34 +28,20 @@ Table 1: Public Health Datasets {tab:\#phdatasets}
 | R4Epi Ebola Outbreak linelist: ([Raw](https://github.com/appliedepi/epirhandbook_eng/raw/master/data/case_linelists/linelist_raw.xlsx "R4Epi Ebola Raw")); ([Clean](https://github.com/appliedepi/epirhandbook_eng/raw/master/data/case_linelists/linelist_cleaned.rds "R4Epi Ebola Clean")) | Fictional Ebola Outbreak from the R4Epi Handbook                                           | epi-curve; rates; regional                      |
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+-------------------------------------------------+
 
-: Example datasets for use in the course
 
-Table 2: Non-Public Health Datasets {tab:\#fundatasets}
+The next table summarizes data sets that do not contain public-health related data specifically, but may still provide for fun data visualization examples. 
+
+
+Table: (\#tab:fundatasets) Non-Public Health Datasets
 
 +----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+------------------------+
 | Title                                                                                  | Description                                                                                            | Use                    |
 +========================================================================================+========================================================================================================+========================+
 | [Palmer's Penguins](https://allisonhorst.github.io/palmerpenguins/ "Penguin Datasets") | Data on 344 penguins collected from antarctic research station. Data include measurements and species. | scatterplot; bar-graph |
 +----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+------------------------+
-|                                                                                        |                                                                                                        |                        |
-+----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+------------------------+
-|                                                                                        |                                                                                                        |                        |
-+----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+------------------------+
-|                                                                                        |                                                                                                        |                        |
-+----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+------------------------+
-|                                                                                        |                                                                                                        |                        |
-+----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+------------------------+
-|                                                                                        |                                                                                                        |                        |
-+----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+------------------------+
-|                                                                                        |                                                                                                        |                        |
-+----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+------------------------+
-|                                                                                        |                                                                                                        |                        |
-+----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+------------------------+
 
-: Non public-health training datasets
+#### Placeholder references:
 
-## Testing out cross referenced tables
+Table \@ref(tab:phdatasets)
 
-Here is table \@ref(tab:phdatasets)
-
-Here is table \@ref(tab:fundatasets)
+Table \@ref(tab:fundatasets)

@@ -1,9 +1,7 @@
+tab:phdatasets
+tab:fundatasets
 eq:binom
 thm:tri
-welcome-to-tdu-dataviz-in-r
-usage
-render-book
-preview-book
 introduction
 description
 prerequisites
@@ -12,8 +10,10 @@ learning-objectives
 target-audience
 datasets
 summary-of-datasets
-testing-out-cross-referenced-tables
-parts
+placeholder-references
+formatting-your-data
+installing-tidyverse
+loading-an-example-dataset
 footnotes-and-citations
 footnotes
 citations

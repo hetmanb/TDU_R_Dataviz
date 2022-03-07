@@ -4,13 +4,13 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>References | TDU: Data Visualization in R</title>
+  <title>Chapter 3 Formatting your data | TDU: Data Visualization in R</title>
   <meta name="description" content="<p>This is a draft example of using the bookdown package to create course
 materials for the PHAC Training and Development Unit’s Data Visualization in
 R course.</p>" />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="References | TDU: Data Visualization in R" />
+  <meta property="og:title" content="Chapter 3 Formatting your data | TDU: Data Visualization in R" />
   <meta property="og:type" content="book" />
   
   
@@ -20,7 +20,7 @@ R course.</p>" />
   <meta name="github-repo" content="hetmanb/TDU_R_Dataviz" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="References | TDU: Data Visualization in R" />
+  <meta name="twitter:title" content="Chapter 3 Formatting your data | TDU: Data Visualization in R" />
   
   <meta name="twitter:description" content="<p>This is a draft example of using the bookdown package to create course
 materials for the PHAC Training and Development Unit’s Data Visualization in
@@ -37,8 +37,8 @@ R course.</p>" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="sharing-your-book.html"/>
-
+<link rel="prev" href="datasets.html"/>
+<link rel="next" href="footnotes-and-citations.html"/>
 <script src="libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -223,31 +223,36 @@ div.csl-indent {
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="references" class="section level1 unnumbered">
-<h1>References</h1>
-
-<div id="refs" class="references csl-bib-body hanging-indent">
-<div class="csl-entry">
-Xie, Yihui. 2015. <em>Dynamic Documents with <span>R</span> and Knitr</em>. 2nd ed. Boca Raton, Florida: Chapman; Hall/CRC. <a href="http://yihui.org/knitr/">http://yihui.org/knitr/</a>.
+<div id="formatting-your-data" class="section level1" number="3">
+<h1><span class="header-section-number">Chapter 3</span> Formatting your data</h1>
+<div id="installing-tidyverse" class="section level2" number="3.1">
+<h2><span class="header-section-number">3.1</span> Installing Tidyverse</h2>
+<p>Even though this course is about data visualizations, we still have to talk about formatting data effectively before using them to create nice graphics and visuals!</p>
+<p>For all of our data formatting examples, we’ll be using packages native to the <a href="https://www.tidyverse.org/">Tidyverse</a>.</p>
+<p>Chances are, if you’ve gotten this far, then you already have the Tidyverse library installed on your computer! However, if you’ve somehow managed to sneak your way into the course and through the first couple chapters without installing it, then now is the time to do so!</p>
+<p>You can install the tidyverse on your computer by writing the following code into your R console and hitting enter:</p>
+<blockquote>
+<p>install.packages(“tidyverse”)</p>
+</blockquote>
+<p>Once you’ve done that, you’ll need to load the library to access all of the very helpful included packages and functions! Do this using the command:</p>
+<blockquote>
+<p>library(tidyverse)</p>
+</blockquote>
+<p>Note that when you’re installing the package, the package name must be wrapped in quotation marks. However, when you’re activating the package using the <code>library()</code> command, you don’t need to use quotes.</p>
 </div>
-<div class="csl-entry">
-———. 2021. <em>Bookdown: Authoring Books and Technical Documents with r Markdown</em>. <a href="https://CRAN.R-project.org/package=bookdown">https://CRAN.R-project.org/package=bookdown</a>.
+<div id="loading-an-example-dataset" class="section level2" number="3.2">
+<h2><span class="header-section-number">3.2</span> Loading an example dataset</h2>
+<p>For the following example, we’ll use the data set “Palmer’s Penguins.” More information about this dataset can be found in Table <a href="datasets.html#tab:fundatasets">2.2</a>.</p>
+
 </div>
 </div>
-</div>
-
-
-
-
-
-
             </section>
 
           </div>
         </div>
       </div>
-<a href="sharing-your-book.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-
+<a href="datasets.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="footnotes-and-citations.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -278,7 +283,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/USERNAME/REPO/edit/BRANCH/07-references.Rmd",
+"link": "https://github.com/USERNAME/REPO/edit/BRANCH/03-parts.Rmd",
 "text": "Edit"
 },
 "history": {
